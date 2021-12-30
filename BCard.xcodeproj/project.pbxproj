@@ -16,6 +16,8 @@
 		F8451591277DE67100201CB7 /* BCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8451590277DE67100201CB7 /* BCardTests.swift */; };
 		F845159B277DE67100201CB7 /* BCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845159A277DE67100201CB7 /* BCardUITests.swift */; };
 		F845159D277DE67100201CB7 /* BCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845159C277DE67100201CB7 /* BCardUITestsLaunchTests.swift */; };
+		F84515AF277DEF4D00201CB7 /* Pushster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F84515AE277DEF4D00201CB7 /* Pushster-Regular.ttf */; };
+		F84515B5277E1AB700201CB7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84515B4277E1AB700201CB7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		F8451596277DE67100201CB7 /* BCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F845159A277DE67100201CB7 /* BCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCardUITests.swift; sourceTree = "<group>"; };
 		F845159C277DE67100201CB7 /* BCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F84515AC277DE9B800201CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F84515AE277DEF4D00201CB7 /* Pushster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pushster-Regular.ttf"; sourceTree = "<group>"; };
+		F84515B4277E1AB700201CB7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +103,11 @@
 		F8451579277DE66C00201CB7 /* BCard */ = {
 			isa = PBXGroup;
 			children = (
+				F84515AC277DE9B800201CB7 /* Info.plist */,
+				F84515A9277DE8EA00201CB7 /* Fonts */,
 				F845157A277DE66C00201CB7 /* BCardApp.swift */,
 				F845157C277DE66C00201CB7 /* ContentView.swift */,
+				F84515B4277E1AB700201CB7 /* InfoView.swift */,
 				F845157E277DE67000201CB7 /* Assets.xcassets */,
 				F8451583277DE67000201CB7 /* Persistence.swift */,
 				F8451585277DE67000201CB7 /* BCard.xcdatamodeld */,
@@ -131,6 +139,14 @@
 				F845159C277DE67100201CB7 /* BCardUITestsLaunchTests.swift */,
 			);
 			path = BCardUITests;
+			sourceTree = "<group>";
+		};
+		F84515A9277DE8EA00201CB7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F84515AE277DEF4D00201CB7 /* Pushster-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84515AF277DEF4D00201CB7 /* Pushster-Regular.ttf in Resources */,
 				F8451582277DE67000201CB7 /* Preview Assets.xcassets in Resources */,
 				F845157F277DE67000201CB7 /* Assets.xcassets in Resources */,
 			);
@@ -266,6 +283,7 @@
 				F8451584277DE67000201CB7 /* Persistence.swift in Sources */,
 				F845157D277DE66C00201CB7 /* ContentView.swift in Sources */,
 				F8451587277DE67000201CB7 /* BCard.xcdatamodeld in Sources */,
+				F84515B5277E1AB700201CB7 /* InfoView.swift in Sources */,
 				F845157B277DE66C00201CB7 /* BCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +448,7 @@
 				DEVELOPMENT_TEAM = KU6VSRF6VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +478,7 @@
 				DEVELOPMENT_TEAM = KU6VSRF6VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
