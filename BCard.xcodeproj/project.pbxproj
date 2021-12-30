@@ -103,6 +103,7 @@
 		F8451579277DE66C00201CB7 /* BCard */ = {
 			isa = PBXGroup;
 			children = (
+				F84515B6277E1CE400201CB7 /* Documentation */,
 				F84515AC277DE9B800201CB7 /* Info.plist */,
 				F84515A9277DE8EA00201CB7 /* Fonts */,
 				F845157A277DE66C00201CB7 /* BCardApp.swift */,
@@ -147,6 +148,13 @@
 				F84515AE277DEF4D00201CB7 /* Pushster-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F84515B6277E1CE400201CB7 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
